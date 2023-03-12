@@ -1,0 +1,13 @@
+@use './app/partials/screen';
+@import './index.scss';
+
+.candy-theme {
+  @include dark-mode();
+  /* background color | --bg-[background type]: value */
+  --bg-surface: #19070D;
+  --bg-surface-transparent: #FFFFFF00;
+  --bg-surface-low: #290F1C;
+  --bg-surface-low-transparent: #290F1C00;
+  --bg-surface-extra-low: #290F1C;
+  --bg-surface-extra-low-transparent: #290F1C00;
+}
